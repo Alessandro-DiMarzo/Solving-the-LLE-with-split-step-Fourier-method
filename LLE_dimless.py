@@ -183,8 +183,7 @@ sol = LLE_sim(
     roundtrips=1000,
     N=2**9
 )
-
-#%%
-sol.scan_detuning(-0.15,2.5,200)
 #%%
 sol.plot_slow_time_evolution()
+#%%
+sol.scan_detuning(-0.15,2.5,200)
